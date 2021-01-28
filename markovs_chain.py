@@ -1,4 +1,5 @@
 #Генерация цепи Маркова
+#Что нам скажет Дмитрий Песков?
 from urllib.request import urlopen
 from random import randint
 
