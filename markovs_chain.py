@@ -45,11 +45,12 @@ wordDict = buildWordDict(text)
 
 length = 256
 chain = ''
-currentWord = 'Путин'
+currentWord = 'Кремль'
 for i in range(0, length):
     chain += currentWord + ' '
     try:
         currentWord = retrieveRandomWord(wordDict[currentWord])
     except:
         pass
+
 print(chain)
